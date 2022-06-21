@@ -2,7 +2,7 @@
 sidebar_position: 2
 slug: /walkthrough
 id: walkthrough
-draft: true
+# draft: true
 ---
 
 # Walkthrough
