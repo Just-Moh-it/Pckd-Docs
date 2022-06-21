@@ -25,9 +25,11 @@ Follow these steps to get started with your own instance of Pckd
 1. Run command `npm run init` to install all the dependencies, and initialize environment files in both folders
 1. Create a database named pckd in your chosen DBMS and remember the connection Username and Password
 1. Manually go to both the `client` and `server` folder and fill in the values in the `.env` file
-1. Open the [`server/prisma/schema.prisma`](server/prisma/schema.prisma) file and replace `postgresql` with your chosen db name.
+1. Open the [`server/prisma/schema.prisma`](https://github.com/PckdHQ/pckd/blob/master/server/prisma/schema.prisma) file and replace `postgresql` with your chosen db name.
 1. Return to base directory, and run `npm run db-init` to sync database with schema.
 1. To test if everything's working, run `npm run dev` and test the app
 1. To promote to production, run `npm run build-client` and then `npm start`
 
-To keep the NodeJS Server alive even when shut down, read the [usage with PM2 guide](/usage-with-pm2)
+The server should now be accessible at [localhost:4000](http://localhost:4000/manage/)
+
+To keep the NodeJS Server alive even when shut down, read the [usage with PM2 guide](/docs/using-pm2)

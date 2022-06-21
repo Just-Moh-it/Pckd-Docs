@@ -1,0 +1,8 @@
+{
+  "label": "Design Choices",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A list of all the choices made during the development process"
+  }
+}
