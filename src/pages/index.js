@@ -17,12 +17,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://pckd.me"
+            to="https://pckd.me/docusaurus-demo"
           >
             View the Demo
           </Link>
 
-          <Link className="button button--outline button--lg" to="/">
+          <Link className="button button--outline button--lg" to="/docs/intro">
             Read the docs
           </Link>
         </div>
