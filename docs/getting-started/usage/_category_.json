@@ -1,0 +1,8 @@
+{
+  "label": "Using with",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "To serve the application and configure all properties correctly, follow one of the serving methods"
+  }
+}
